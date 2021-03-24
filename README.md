@@ -58,6 +58,7 @@ AWS
     #AWS
     aws.s3.access-id= "다운받은 key 참조"
     aws.s3.access-pw= "다운받은 key 참조"
+    aws.s3.bucket=caucampuscontact
     ```
 
     5. ## AWS config 클래스 생성
