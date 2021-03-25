@@ -2,6 +2,7 @@
 AWS
 ---
 1. # AWS S3 활용해서 Image 업로드하기
+    0. ## Contents Delivery Network -> AWS S3
     1. ## [AWS S3](https://s3.console.aws.amazon.com/s3/hom) 에서 버킷만들기
     ```java
     * 버킷 이름 : caucampustcontact
