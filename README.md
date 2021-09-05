@@ -84,7 +84,7 @@ AWS
         public AmazonS3 awsS3Client(){
             AmazonS3 amazonS3 = AmazonS3ClientBuilder.standard()
                     .withRegion(Regions.AP_NORTHEAST_2)
-                    .withCredentials(new AWSStaticCredentialsProvider())
+                    .withCredentials(new AWSStaticCredentialsProvider(awsCredentials()))
                     .build();
             return amazonS3;
         }
